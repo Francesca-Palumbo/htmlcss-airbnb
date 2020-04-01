@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blocco{
+    height: 250px;
+    width: 300px;
+    margin-bottom: 30px;
+    background-size: cover;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    border-style:double;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+.blocco:first-child {
+    background-image: url(monopoli.jpg);
+}
+
+.blocco:nth-child(2) {
+    background-image: url(otranto.jpg);
+}
+
+.blocco:last-child{
+    background-image: url(polignano.jpg);
+}
+
+.blocco h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left:0;
+    position: absolute;
+}
+main{
+    text-align: center;
+    margin: 0;
+}
